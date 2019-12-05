@@ -1,7 +1,7 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .clearfix::after {
@@ -11,7 +11,7 @@
 }
 
 main{
-	width: 960px;
+  width: 960px;
   margin: 50px auto;
 }
 .step-box{
@@ -60,3 +60,24 @@ main{
 .title{
   margin: 15px 0 5px;
 }
+
+@media screen and (max-width: 768px){
+
+main {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.step-box {
+  float: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.step-img1, .step-img2, .step-img3 {
+  padding: 10px;
+}
+}
+
+
+
