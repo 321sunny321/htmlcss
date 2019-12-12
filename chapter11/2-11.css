@@ -131,6 +131,7 @@ color: #000000;
 	width: 1024px;
 	margin: 0 auto;
 	height: 630px;
+	padding-left: 55px;
 }
 
 .img1 {
@@ -211,6 +212,7 @@ background-color: #ECEFF1;
 .feature-top {
 	font-size: 32px;
 	text-align: center;
+	padding-top: 90px;
 }
 
 .feature-top:after{
@@ -271,7 +273,9 @@ padding: 10px 0;
 .profile-top {
 	font-size: 32px;
 	text-align: center;
+	padding-top: 90px;
 }
+
 
 .profile-top:after{
 	font-size: 32px;
@@ -327,6 +331,10 @@ background-image: url(img/my-icon.jpg);
 	height: 500px;
 	width: 100%;
 	text-align: center;
+}
+
+.contact-top {
+	padding-top: 90px;
 }
 
 .contact-top:after {
@@ -485,6 +493,7 @@ background-color: #000; /*メニュー背景色*/
     background-size: cover;
     background-position: center;
     float: none;
+    margin-left: 120px;
 }
 
 .img3 {
@@ -502,6 +511,7 @@ background-color: #000; /*メニュー背景色*/
     background-size: cover;
     background-position: center;
     float: none;
+    margin-left: 120px;
 }
 
 .img5 {
@@ -518,6 +528,7 @@ background-color: #000; /*メニュー背景色*/
     background-size: cover;
     background-position: center;
     float: none;
+    margin-left: 120px;
 }
 
 .indent {
@@ -526,7 +537,7 @@ background-color: #000; /*メニュー背景色*/
 
 .feature {
 	width: 100%;
-	height: 1350px;
+	height: 1480px;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -549,7 +560,11 @@ background-color: #000; /*メニュー背景色*/
 
 .profile {
 	width: 100%;
-	height: 950px;
+	height: 1080px;
+}
+
+.right-title {
+	padding-bottom: 20px;
 }
 
 .left-line {
@@ -564,10 +579,18 @@ background-color: #000; /*メニュー背景色*/
 	text-align: center;
 }
 
+.contact {
+	height: 600px;
+}
+
 .contact-box {
 	width: 100%;
 	text-align: center;
 	padding: 0;
+}
+
+.contact-top {
+padding-top: 90px;
 }
 
 footer {
